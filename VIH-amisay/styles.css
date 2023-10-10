@@ -1,0 +1,67 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcfaf8;
+    margin: 0;
+    padding: 0;
+    background-image: url('fondo.jpeg'); /* Cambia 'fondo.jpg' al nombre de tu imagen de fondo */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #333; /* Color de texto en el contenido */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para encabezado */
+    color: #fd0303;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(240, 243, 246, 0.986); /* Fondo semi-transparente para contenido principal */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+/* Estilos específicos para secciones */
+.intro, .prevencion, .apoyo {
+    background-color: rgba(251, 9, 9, 0.9); /* Fondo semi-transparente para secciones */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #100f0f;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    display: block;
+    margin: 20px auto;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para pie de página */
+    color: #ee6666;
+    text-align: center;
+    padding: 10px;
+}

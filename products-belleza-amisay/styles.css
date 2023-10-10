@@ -1,0 +1,30 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('dondo.jpeg'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+header {
+    background-color: rgba(255, 51, 204, 0.8); /* Color de belleza con opacidad */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* Resto de tu CSS... */
