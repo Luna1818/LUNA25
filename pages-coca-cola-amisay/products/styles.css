@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fondo.jpeg'); /* Cambia 'background.jpg' por tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    overflow: hidden; /* Oculta el desbordamiento de las imágenes animadas */
+}
+
+/* Animación del fondo */
+@keyframes moveBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
+
+/* Aplica la animación al fondo */
+body {
+    animation: moveBackground 20s linear infinite; /* Ajusta la velocidad y duración de la animación según sea necesario */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para hacer que el texto sea legible */
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Estilos para el logotipo de Coca-Cola */
+header img {
+    max-width: 100px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Estilos para las secciones principales */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente para hacer que el contenido sea legible */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para los títulos de productos */
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #ff0000; /* Cambia el color del título a tu preferencia */
+}
+
+/* Estilos para las imágenes de productos */
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Estilos para el texto de productos */
+p {
+    font-size: 18px;
+    margin: 20px;
+    text-align: center;
+}

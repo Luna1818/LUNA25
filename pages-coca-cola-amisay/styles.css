@@ -1,0 +1,82 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fondo.jpeg'); /* Cambia 'background.jpg' por tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+/* Estilos para los botones de navegación */
+button {
+    background-color: #ff0000; /* Cambia el color de fondo a tu preferencia */
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #cc0000; /* Cambia el color de fondo al pasar el ratón */
+}
+
+/* Estilos para el encabezado */
+h1 {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para hacer que el texto sea legible */
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Estilos para las secciones principales */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para hacer que el contenido sea legible */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Estilos para el texto */
+p {
+    font-size: 18px;
+    margin: 20px;
+}
+
+/* Estilos para la lista de productos */
+ul {
+    list-style: none;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+    color: #ff0000; /* Cambia el color de la lista de productos a tu preferencia */
+}
+
+/* Estilos para los enlaces en la lista de productos */
+ul a {
+    text-decoration: none;
+    color: #ff0000; /* Cambia el color de los enlaces a tu preferencia */
+}
+
+/* Estilos para los enlaces en la lista de productos al pasar el ratón */
+ul a:hover {
+    text-decoration: underline;
+}
