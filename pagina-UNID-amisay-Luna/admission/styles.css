@@ -1,0 +1,57 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado de la página */
+header {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Títulos */
+h1, h2 {
+    color: #007acc;
+}
+
+/* Sección de admisión */
+#admision {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Listas */
+ul, ol {
+    margin-left: 20px;
+}
+
+/* Enlaces de contacto */
+address {
+    font-style: normal;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

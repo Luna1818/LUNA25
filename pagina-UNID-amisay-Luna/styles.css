@@ -1,0 +1,170 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #0e0e0e;
+}
+
+/* Sección de Inicio */
+#inicio {
+    background-color: #0b0b0b;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+}
+
+#inicio h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#inicio p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#inicio img {
+    max-width: 100%;
+    margin-top: 20px;
+    animation: spin 10s linear infinite;
+}
+
+
+
+/* Programas Académicos */
+#programas-academicos {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#programas-academicos h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#programas-academicos ul {
+    list-style: none;
+}
+
+#programas-academicos li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #121212;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#programas-academicos li:hover {
+    transform: scale(1.05);
+    background-color: #0b0b0b;
+}
+
+#programas-academicos img {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+/* Enlaces de Admisión y Acerca de la UNID */
+#admision, #acerca-de {
+    background-color: #f0f0f0;
+    padding: 40px;
+    text-align: center;
+}
+
+#admision h2, #acerca-de h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#admision p, #acerca-de p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#admision a, #acerca-de a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #080808;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#admision a:hover, #acerca-de a:hover {
+    background-color: #0a0a0a;
+}
+
+/* Sección de Contacto */
+#contacto {
+    background-color: #0a0a0a;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+#contacto h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contacto address {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+}

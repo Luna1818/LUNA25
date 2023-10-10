@@ -1,0 +1,72 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezados */
+h1, h2 {
+    color: #333;
+}
+
+/* Sección "Acerca de" */
+#acerca-de {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Contenedor */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Texto */
+.text {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Imagen */
+.image {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Imagen de fondo */
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Lista de valores */
+ul {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

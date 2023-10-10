@@ -1,0 +1,90 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #007bff; /* Color de fondo */
+    color: #fff;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado principal */
+h1 {
+    font-size: 24px;
+}
+
+/* Estilos para la lista de preguntas */
+.pregunta {
+    margin: 20px 0;
+    text-align: left;
+}
+
+/* Estilos para etiquetas de pregunta */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Estilos para campos de entrada de texto y área de texto */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Estilos para el menú desplegable (select) */
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Estilos para el botón de envío */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilos para el enlace de estilo personalizado en el encabezado */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilos para el enlace de estilo personalizado en el encabezado cuando se pasa el cursor sobre él */
+a:hover {
+    text-decoration: underline;
+}
